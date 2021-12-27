@@ -3,9 +3,17 @@ export interface INode {
   nodeName: string;
   content: INode[] | string;
   color?: string;
-  groups?: []
+  groups?: [];
 }
 
 export interface IResponse {
   data: Array<INode>;
+}
+
+export interface Component {
+  connectedCallback(): void;
+  disconnectedCallback(): void;
+  adoptedCallbac(): void;
+  attributeChangedCallback(): void;
+  observedAttributes(): void;
 }

@@ -1,6 +1,6 @@
 // █▀█ █▀█ █▀▀ █░█ ▄▀█ █▀█ █▀▄
 // █▄█ █▀▄ █▄▄ █▀█ █▀█ █▀▄ █▄▀
-// v0.0.1
+// https://github.com/buresj/orchard
 
 /**
  *
@@ -50,10 +50,3 @@ function createTagName(className: string) {
   );
 }
 
-export interface Component {
-  connectedCallback(): void;
-  disconnectedCallback(): void;
-  adoptedCallbac(): void;
-  attributeChangedCallback(): void;
-  observedAttributes(): void;
-}

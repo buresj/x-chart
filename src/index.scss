@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+x-chart::part(wrapper) {
+  width: 800px;
+  height: 600px;
+  background-color: grey;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+x-chart::part(pendingMsg) {
+  color: cyan;
+}
+
+x-chart::part(catchMsg) {
+  color: coral;
+}
+
+x-bar-chart::part(wrapper) {
+  background-color: lightcoral;
+  height: 200px;
+  width: 120px;
+}
+
+x-bar-chart::part(column-1) {
+  fill: blue;
+}

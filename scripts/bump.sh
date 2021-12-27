@@ -9,5 +9,5 @@ set -e
 
 VER=$(jq ".version" --raw-output < package.json)
 git add .
-git commit -m "chore: bump v$VER :robot:"
+git commit -m "chore: bump v$VER :christmas_tree:"
 git push origin master
