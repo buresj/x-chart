@@ -27,7 +27,7 @@ Secondly, we should strive for more intuitive way how to structure and declare c
 </x-chart>
 ```
 
-- idea for templating async behaviour taken from
+- idea for templating async behaviour taken from conditional rendering feature of Aurelia 2. [See](https://docs.aurelia.io/getting-to-know-aurelia/introduction/built-in-template-features/promise.bind)
 
 To override styling in the shadow dom, `::part` pseudoselector could be used.
 
@@ -40,11 +40,7 @@ To override styling in the shadow dom, `::part` pseudoselector could be used.
 </style>
 ```
 
-Or CSS variables, which they DO enter shadow tree.
-
-```html
-<style></style>
-```
+Or CSS variables, which they DO enter shadow tree. See https://vaadin.com/learn/tutorials/css-variables
 
 ## Blockers
 
